@@ -1,3 +1,7 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/Domisnnet/City-News-Web-Essentials?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/Domisnnet/City-News-Web-Essentials?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/Domisnnet/City-News-Web-Essentials?style=for-the-badge)
+
 <h2 id="sobre-o-projeto">1. 📰 Notícias Cidade: Portal de Informação 📰</h2>
 
 ![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)
@@ -36,7 +40,7 @@ Bem-vindo ao **Notícias Cidade**! Este projeto simula um portal de notícias co
 Acesse o portal e navegue pelas notícias em tempo real:
 
 <div align="left">
-  <a href="https://domisnnet.github.io/noticias-cidade/" target="_blank">
+  <a href="https://domisnnet.github.io/City-News-Web-Essentials/" target="_blank">
     <img alt="Botão Acessar" src="src/imagens/botão.webp" height="70" width="70" />
   </a>
 </div>
@@ -73,7 +77,7 @@ Implementação de `clear: both` no rodapé e em containers específicos para ga
 
 Explore a estrutura de arquivos do Notícias Cidade:
 
-[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2Fnoticias--cidade-1DB954?style=for-the-badge&logo=github)](https://github.com/Domisnnet/noticias-cidade)
+[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FCity--News--Web--Essentials-1DB954?style=for-the-badge&logo=github)](https://github.com/Domisnnet/City-News-Web-Essentials)
 
 ---
 
@@ -83,11 +87,11 @@ Siga os passos abaixo para adicionar novas editorias ou melhorias:
 
 | Fase | Ação | Link / Comando |
 | :---: | :--- | :--- |
-| **01** | **Fork** | [![Fork](https://img.shields.io/badge/-Fazer%20Fork-blue?style=flat-square&logo=github)](https://github.com/Domisnnet/noticias-cidade/fork) |
+| **01** | **Fork** | [![Fork](https://img.shields.io/badge/-Fazer%20Fork-blue?style=flat-square&logo=github)](https://github.com/Domisnnet/City-News-Web-Essentials/fork) |
 | **02** | **Branch** | `git checkout -b feature/NovaEditoria` |
 | **03** | **Commit** | `git commit -m 'feat: adição da página de tecnologia'` |
 | **04** | **Push** | `git push origin feature/NovaEditoria` |
-| **05** | **PR** | [![Abrir PR](https://img.shields.io/badge/-Abrir%20PR-green?style=flat-square&logo=git)](https://github.com/Domisnnet/noticias-cidade/compare) |
+| **05** | **PR** | [![Abrir PR](https://img.shields.io/badge/-Abrir%20PR-green?style=flat-square&logo=git)](https://github.com/Domisnnet/City-News-Web-Essentials/compare) |
 
 ---
 
@@ -114,7 +118,7 @@ Siga os passos abaixo para adicionar novas editorias ou melhorias:
 
 Analise a folha de estilo e a estruturação dos IDs:
 
-[![Código](https://img.shields.io/badge/Código%20Fonte-Acessar-795548?style=for-the-badge&logo=github)](https://github.com/Domisnnet/noticias-cidade/tree/main)
+[![Código](https://img.shields.io/badge/Código%20Fonte-Acessar-795548?style=for-the-badge&logo=github)](https://github.com/Domisnnet/City-News-Web-Essentials/tree/main)
 
 ---
 
@@ -133,10 +137,12 @@ O **Notícias Cidade** reflete as melhores práticas de layouts de portais clás
 
 <h2 id="licenca">11. 📄 Licença</h2>
 
-Este projeto está sob a [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/noticias-cidade/blob/main/LICENSE)
+Este projeto está sob a [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/City-News-Web-Essentials/blob/main/LICENSE)
 
 ---
 
 <h2 id="perfil-do-github">12. 👨‍💻 Perfil do GitHub</h2>
 
-<a href="https://github.com/Domisnnet"> <img src="src/imagens/DomisDev.png" width="120" alt="Acessar perfil GitHub"> </a>
+<a href="https://github.com/Domisnnet"> 
+  <img src="src/imagens/DomisDev.png" width="120" alt="Acessar perfil GitHub"> 
+</a>
