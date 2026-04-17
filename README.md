@@ -6,7 +6,7 @@
 
 ![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)
 ![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS-blueviolet)
-[![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/noticias-cidade/blob/main/LICENSE)
+[![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/City-News-Web-Essentials/blob/main/license)
 
 ![Notícias Cidade](src/imagens/noticias-cidade.png)
 
@@ -148,7 +148,7 @@ O **Notícias Cidade** reflete as melhores práticas de layouts de portais clás
 
 <h2 id="licenca">11. 📄 Licença</h2>
 
-Este projeto está sob a [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/City-News-Web-Essentials/blob/main/LICENSE)
+Este projeto está sob a [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/City-News-Web-Essentials/blob/main/license)
 
 ---
 
