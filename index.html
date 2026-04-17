@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
-	<title>Notícias cidade - Seu site de notícias</title>
+	<title>Not?cias cidade - Seu site de notícias</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="src/css/estilo.css">
@@ -10,147 +10,173 @@
 </head>
 
 <body class="home">
-	<div id="container">
-		<div id="topo">
-			<h1 class="logo">Notícias cidade</h1>
-			<ul id="navegacao">
-				<li class="primeiro">
-					<a id="home" href="src/pages/index.html">home</a>
-				</li>
-				<li>
-					<a id="brasil" href="src/pages/brasil.html">Brasil</a>
-				</li>
-				<li>
-					<a id="internacional" href="src/pages/internacional.html">Internacional</a>
-				</li>
-				<li>
-					<a id="economia" href="src/pages/economia.html">Economia</a>
-				</li>
-				<li>
-					<a id="saude" href="src/pages/saude.html">Saúde</a>
-				</li>
-				<li>
-					<a id="ciencia" href="src/pages/ciencia.html">Ciência</a>
-				</li>
-				<li>
-					<a id="fotos" href="src/pages/fotos.html">Fotos</a>
-				</li>
-			</ul>
-		</div>
+	<main id="container">
+		<header id="topo">
+			<h1 class="logo">Not?cias cidade</h1>
+			<nav>
+				<ul id="navegacao">
+					<li class="primeiro">
+						<a id="home" href="src/pages/index.html">home</a>
+					</li>
+					<li>
+						<a id="brasil" href="src/pages/brasil.html">Brasil</a>
+					</li>
+					<li>
+						<a id="internacional" href="src/pages/internacional.html">Internacional</a>
+					</li>
+					<li>
+						<a id="economia" href="src/pages/economia.html">Economia</a>
+					</li>
+					<li>
+						<a id="saude" href="src/pages/saude.html">Sa?de</a>
+					</li>
+					<li>
+						<a id="ciencia" href="src/pages/ciencia.html">Ci?ncia</a>
+					</li>
+					<li>
+						<a id="fotos" href="src/pages/fotos.html">Fotos</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
 		<div id="conteudo">
-			<div id="primario">
-				<div class="caixa destaque">
+			<section id="primario">
+				<article class="caixa destaque">
 					<h2>Destaque</h2>
 					<div class="caixa-conteudo">
-						<h3>Nova legislação</h3>
-						<img class="imagem-principal" src="src/imagens/taxi.jpg" width="100%">
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						</p>
+						<h3>Nova legisla??o</h3>
+						<figure>
+							<img class="imagem-principal" src="src/imagens/taxi.jpg" width="100%"
+								alt="Imagem sobre nova legisla??o">
+						</figure>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						<a href="src/pages/nova-legislacao.html">Leia mais!</a>
 					</div>
-				</div>
-				<div class="caixa">
+				</article>
+
+				<section class="caixa">
 					<h2>Mundo</h2>
 					<div class="caixa-conteudo">
 						<ul id="lista-noticias">
 							<li>
-								<a href="">
-									<img src="src/imagens/tecnologia.jpg" width="80">
-									<h3>Novas tecnologias!</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur...</p>
-								</a>
+								<article>
+									<a href="">
+										<figure>
+											<img src="src/imagens/tecnologia.jpg" width="80" alt="Tecnologia">
+										</figure>
+										<h3>Novas tecnologias!</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur...</p>
+									</a>
+								</article>
 							</li>
 							<li>
-								<a href="">
-									<img src="src/imagens/tecnologia.jpg" width="80">
-									<h3>Novas tecnologias!</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur...</p>
-								</a>
+								<article>
+									<a href="">
+										<figure>
+											<img src="src/imagens/tecnologia.jpg" width="80" alt="Tecnologia">
+										</figure>
+										<h3>Novas tecnologias!</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur...</p>
+									</a>
+								</article>
 							</li>
 							<li>
-								<a href="">
-									<img src="src/imagens/tecnologia.jpg" width="80">
-									<h3>Novas tecnologias!</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur...</p>
-								</a>
+								<article>
+									<a href="">
+										<figure>
+											<img src="src/imagens/tecnologia.jpg" width="80" alt="Tecnologia">
+										</figure>
+										<h3>Novas tecnologias!</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur...</p>
+									</a>
+								</article>
 							</li>
 							<li>
-								<a href="">
-									<img src="src/imagens/tecnologia.jpg" width="80">
-									<h3>Novas tecnologias!</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur...</p>
-								</a>
+								<article>
+									<a href="">
+										<figure>
+											<img src="src/imagens/tecnologia.jpg" width="80" alt="Tecnologia">
+										</figure>
+										<h3>Novas tecnologias!</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur...</p>
+									</a>
+								</article>
 							</li>
 						</ul>
 					</div>
-				</div>
-			</div>
-			<div id="secundario">
-				<div class="caixa entrevista">
-					<h2>Última entrevista</h2>
+				</section>
+			</section>
+
+			<aside id="secundario">
+				<article class="caixa entrevista">
+					<h2>?ltima entrevista</h2>
 					<div class="caixa-conteudo">
 						<h3>Entrevista com felipe silva</h3>
-						<img class="imagem-principal" src="src/imagens/doutor.jpg" width="100%">
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						</p>
+						<figure>
+							<img class="imagem-principal" src="src/imagens/doutor.jpg" width="100%" alt="Felipe Silva">
+						</figure>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						<a href="src/pages/entrevista-felipe-silva.html">Leia mais!</a>
 					</div>
-				</div>
-				<div class="caixa">
-					<h2>Notícias recentes</h2>
+				</article>
+
+				<section class="caixa">
+					<h2>Not?cias recentes</h2>
 					<div class="caixa-conteudo">
 						<ul id="lista-noticias">
 							<li>
-								<a href="">
-									<img src="src/imagens/cidade.jpg" width="80">
-									<h3>Novas tecnologias!</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur...</p>
-								</a>
+								<article><a href="">
+										<figure><img src="src/imagens/cidade.jpg" width="80" alt="Cidade"></figure>
+										<h3>Novas tecnologias!</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur...</p>
+									</a></article>
 							</li>
 							<li>
-								<a href="">
-									<img src="src/imagens/taxi.jpg" width="80">
-									<h3>Novas tecnologias!</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur...</p>
-								</a>
+								<article><a href="">
+										<figure><img src="src/imagens/taxi.jpg" width="80" alt="T?xi"></figure>
+										<h3>Novas tecnologias!</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur...</p>
+									</a></article>
 							</li>
 							<li>
-								<a href="">
-									<img src="src/imagens/tecnologia.jpg" width="80">
-									<h3>Novas tecnologias!</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur...</p>
-								</a>
+								<article><a href="">
+										<figure><img src="src/imagens/tecnologia.jpg" width="80" alt="Tecnologia">
+										</figure>
+										<h3>Novas tecnologias!</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur...</p>
+									</a></article>
 							</li>
 							<li>
-								<a href="">
-									<img src="src/imagens/doutor.jpg" width="80">
-									<h3>Novas tecnologias!</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur...</p>
-								</a>
+								<article><a href="">
+										<figure><img src="src/imagens/doutor.jpg" width="80" alt="Doutor"></figure>
+										<h3>Novas tecnologias!</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur...</p>
+									</a></article>
 							</li>
 						</ul>
 					</div>
-				</div>
-			</div>
-			<div id="lateral">
-				<div class="caixa">
+				</section>
+			</aside>
+
+			<aside id="lateral">
+				<section class="caixa">
 					<h2>Entrevistas</h2>
 					<div class="caixa-conteudo">
 						<ul>
-							<li><a href="">José Almeida</a></li>
+							<li><a href="">Jos? Almeida</a></li>
 							<li><a href="">Felipe Silva</a></li>
 							<li><a href="">Renato Rodrigues</a></li>
 							<li><a href="">Abelardo Silveira</a></li>
-							<li><a href="">André Carlos</a></li>
-							<li><a href="">Márcio Mello</a></li>
-							<li><a href="">João Pedro</a></li>
+							<li><a href="">Andr? Carlos</a></li>
+							<li><a href="">M?rcio Mello</a></li>
+							<li><a href="">Jo?o Pedro</a></li>
 							<li><a href="">Fernando Weiss</a></li>
 						</ul>
 					</div>
-				</div>
-				<div class="caixa">
+				</section>
+
+				<section class="caixa">
 					<h2>News</h2>
 					<div class="caixa-conteudo">
 						<form>
@@ -163,16 +189,14 @@
 							</div>
 						</form>
 					</div>
-				</div>
-			</div>
+				</section>
+			</aside>
 		</div>
-	</div>
+	</main>
 
-	<div id="container-rodape" style="clear: both;">
-		<div id="rodape">
-			&copy; Copyright - 2024 Notícias cidade
-		</div>
-	</div>
+	<footer id="container-rodape" style="clear: both;">
+		<p>&copy; Copyright - 2024 Not?cias cidade</p>
+	</footer>
 
 </body>
 
