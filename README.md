@@ -8,7 +8,7 @@
 ![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS-blueviolet)
 [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/noticias-cidade/blob/main/LICENSE)
 
-![Preview do Notícias Cidade](imagens/noticias-cidade.png)
+![Notícias Cidade](src/imagens/noticias-cidade.png)
 
 Bem-vindo ao **Notícias Cidade**! Este projeto simula um portal de notícias completo e dinâmico. A aplicação foca na organização de múltiplas editorias (Brasil, Internacional, Economia, Saúde, etc.) utilizando um layout de múltiplas colunas. É um estudo avançado de posicionamento e containers, ideal para entender como portais de grande conteúdo estruturam suas informações para o usuário final.
 
